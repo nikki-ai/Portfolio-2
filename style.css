@@ -1,97 +1,129 @@
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    background-color: #f3dcfd;
-    text-align: justify;
+  display: flex;
+  flex-direction: column;
+  background-color: #D7D0DC;
+  text-align: justify;
+  font-family: 'Dancing Script', cursive;
 }
 
 h1 {
-    font-size: 52px;
-    text-align: center;
-    color: #f3dcfd;
+  font-size: 100px;
+  text-align: center;
+  padding: 10px;
+  color: #f3dcfd;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
 }
 
 nav {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    padding-left: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
 }
 
-
 header {
-    background-color: #cf9b79;
-    margin-bottom: 10px;
+  background-color: #cf9b79;
+  margin-bottom: 10px;
 }
 
 header nav ul {
-    list-style: none;
-     display: flex;
-     padding-left: 0;
-     justify-content: center;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  
 }
 
 header nav ul li a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px 0 0;
-    
+  color: white;
+  text-decoration: none;
+  margin: 0 20px 0 0;
 }
 
 header nav ul li:last-child a {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-form label{
-    padding-top: 10px;
+form label {
+  padding-top: 10px;
 }
-
 
 form button {
-    display:flex;
-    justify-content: center;
-    margin: 10px 34%;
-    padding: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 34%;
+  padding: 5px;
 }
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+    margin: 0px 25% 0px 25%;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {color: #FFFD85}
+a:visited { color: #4DA85B}
+a:hover{color: white}
+
+
+img {
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
 
 
 @media all and (min-width: 600px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 30px;
-    }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
 
-    header h1 {
-        font-size: 48px;
+  header h1 {
+    font-size: 48px;
+  }
 
-    }
+  header nav {
+    display: flex;
+    margin-top: 14px;
+  }
 
-    header nav {
-        display: flex;
-        margin-top: 14px;
-    }
 
-    header nav ul li a:hover {
-        color: #bdbdbd;
-    }
-    
-    form button {
-        display:flex;
-        justify-content: center;
-        margin: 10px 40%;
-    }
-    
+  form button {
+    display: flex;
+    justify-content: center;
+    margin: 10px 40%;
+  }
+
+  img {
+      width: 250px;
+  }
 }
