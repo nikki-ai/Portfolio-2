@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-size: 100px;
+  
   text-align: center;
   padding: 10px;
   color: #f3dcfd;
@@ -83,6 +83,11 @@ section {
 
 a {
     text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
 }
 
 a:link {color: #FFFD85}
