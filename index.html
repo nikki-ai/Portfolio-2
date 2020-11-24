@@ -14,23 +14,30 @@
         <ul id="menu">
           <li><a href="#intro">Intro</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
           <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
+      <div class = "group">
       <img src="picture.JPG" alt="Picture of me">
       <section id="intro">
+        
         <h2>Intro</h2>
+        
         <p>Hi! I'm Nikki Dibartolomeo, I'm A Thinkful Student living in Houston, Tx.</p>
         <p>
           I'm new to software development but I look forward to working with
           others to further develop my knowledge of computer programming.
         </p>
+      <!-- </div> -->
       </section>
       <section id="about">
+        
+        
         <h2>About Me</h2>
+        <!-- <div class = "group"> -->
         <p>
           I'm originally from a ranching community in California and acquired a
           passion for Computer programming after taking a C++ course in High
@@ -39,11 +46,45 @@
           in it. By learning to be a Software Developer, I hope to participate
           in projects that help raise the awareness of others.
         </p>
+       </div>
+       </section> 
+      <section id="project">
+        
+        <h2>My Projects</h2>
+         <div class = "group">
+      
+          <!-- <ol> -->
+            <div class ='P1'>
+            <h4>Project Title</h4>
+            <p>Description of project</p>
+            <a href="#">Project link</a>
+            <a href="#">Repo link</a>
+            <p>In order to make this project I had to have a clear understandng of how to...</p>
+          </div>
+          <div class ='P2'>
+            <h4>Project Title</h4>
+            <p>Description of project</p>
+            <a href="#">Project link</a>
+            <a href="#">Repo link</a>
+            <p>In order to make this project I had to have a clear understandng of how to...</p>
+            </div>
+            <div class ='P3'>
+            <h4>Project Title</h4>
+            <p>Description of project</p>
+            <a href="#">Project link</a>
+            <a href="#">Repo link</a>
+            <p>In order to make this project I had to have a clear understandng of how to...</p>
+            </div>
+          <!-- </ol> -->
+        
+      </div>
       </section>
       <section id="contact">
+        
         <h2>Contact Me</h2>
+        <div class>
         <form action="https://formspree.io/f/xvovqojj" method="POST">
-          <label>
+          <label for ='Your E-Mail'>
             <input
               type="text"
               name="_replyto"
@@ -51,7 +92,7 @@
               required
             />
           </label>
-          <label>
+          <label for ='Your Message'>
             <textarea
               name="message"
               placeholder="Your Message"
@@ -61,22 +102,12 @@
 
           <button type="submit">Send</button>
         </form>
-
-        <p><a href="https://github.com/nikki-ai">Github</a></p>
-        <p><a href="https://shony1198@gmail.com">E-Mail</a></p>
-      </section>
-      <section id="project">
-        <h2>My Projects</h2>
-        <p>
-          <ul>
-          <li><a href="">Project 1</a></li>
-
-          <li><a href="">Project 2</a></li>
-
-          <li><a href="">Project 3</a></li>
-          </ul>
-        </p>
-      </section>
+        </div>
+        <a href="https://github.com/nikki-ai">Github</a>
+        
+        <a href="https://shony1198@gmail.com">E-Mail</a>
+      
+    </section>
     </main>
   </body>
 </html>
