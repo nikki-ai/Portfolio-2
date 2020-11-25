@@ -103,6 +103,18 @@ ol {
   font-size: 19px;
 }
 
+main a:link {
+ color: #9c6846
+}
+
+main a:visited {
+  color: #000000
+}
+
+main a:hover{
+  color: white;
+}
+
 a:link {color: #FFFD85}
 a:visited { color: #4DA85B}
 a:hover{color: white}
