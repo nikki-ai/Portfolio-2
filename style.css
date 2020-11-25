@@ -127,6 +127,12 @@ a:link {color: #eddcd2}
 a:visited { color: #cb997e}
 a:hover{color: #ddbea9}
 
+#contactLinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 
 img {
     border-radius: 100px;
