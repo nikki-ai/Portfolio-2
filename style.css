@@ -26,12 +26,10 @@ nav {
   display: flex;
   list-style: none;
   justify-content: center;
-  padding-left: 0;
 }
 
 header {
   background-color: #5a5a46;
-  margin-bottom: 10px;
 }
 
 header nav ul {
@@ -137,7 +135,7 @@ a:hover {
   align-items: center;
 }
 
-img {
+.picture {
   border-radius: 100px;
   display: block;
   margin-left: auto;
@@ -158,12 +156,21 @@ p {
   padding: 20px;
 }
 
-@media all and (min-width: 600px) {
+.group {
+  justify-content: space-between;
+}
+
+@media all and (min-width: 800px) {
   header {
-    display: flex;
     justify-content: space-between;
     padding: 0 30px 0px;
     margin-bottom: 10px;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   section {
@@ -192,16 +199,14 @@ p {
     margin: 10px 40%;
   }
 
-  img {
+  .picture {
     width: 250px;
     display: flex;
   }
-
-  .group {
+  /* .ex-img {
+    width: 250px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  } */
 
   #about ul li {
     text-align: center;
